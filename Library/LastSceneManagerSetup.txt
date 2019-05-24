@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Sheriff/SheriffPostTreatment2.unity
+- path: Assets/Scenes/Menu Scenes/CharacterSelection/SelectStoryScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
