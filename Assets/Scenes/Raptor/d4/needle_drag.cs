@@ -12,7 +12,7 @@ public class needle_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     //stores the parent of the game object
     Transform startParent;
     //used to start animation
-    public static bool slot = false;
+    public static bool slot;
     //references needle animator
     public Animator animator;
     public GameObject clip_board;
@@ -70,6 +70,10 @@ public class needle_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
         // Raptor SE
         FindObjectOfType<AudioManager>().Play("RaptorSound");
 
+    }
+    public void Start()
+    {
+        slot = false;
     }
 
     void Update()

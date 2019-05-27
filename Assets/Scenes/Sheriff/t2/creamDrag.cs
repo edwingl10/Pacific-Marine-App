@@ -24,7 +24,7 @@ public class creamDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
     public Sprite cream;
 
     //array all targets used
-    //public GameObject[] targets;
+    public GameObject[] targets;
 
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -73,14 +73,15 @@ public class creamDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
 
     IEnumerator play_clipboard()
     {
+        clip_board.GetComponent<Animator>().SetBool("play", true);
         //makes trail not visible 
-        yield return new WaitForSeconds(0.2f);
-        //for (int i = 0; i < targets.Length; i++)
-        //{
-          //  targets[i].SetActive(false);
-        //}
+        yield return new WaitForSeconds(1.5f);
+        for (int i = 0; i < targets.Length; i++)
+        {
+            targets[i].SetActive(false);
+        }
 
-        clip_board.GetComponent<Animator>().SetBool("play",true);
+
         StartCoroutine(hide_clipboard());
     }
 

@@ -12,7 +12,7 @@ public class tweezerDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     Vector3 startPosition;
     //stores the parent of the game object
     Transform startParent;
-
+    public Animator tweezers;
 
     //references target gameobject
     public GameObject target;
@@ -29,6 +29,8 @@ public class tweezerDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
         GetComponent<CanvasGroup>().blocksRaycasts = false;
         transform.SetParent(transform.root);
 
+        tweezers.enabled = true;
+        tweezers.Play("tweezing");
         //starts the target help animation 
         target.GetComponent<Animator>().SetBool("targetHelp", true);
     }
@@ -44,7 +46,7 @@ public class tweezerDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     {
 
         itemBeingDragged = null;
-
+        tweezers.enabled = false;
 
         //snaps object back to original slot if not over the target slot 
         if (transform.parent == startParent || transform.parent == transform.root)

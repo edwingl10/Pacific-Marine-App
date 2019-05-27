@@ -10,7 +10,8 @@ public class TargetHandler : MonoBehaviour, IDropHandler
     public GameObject Instructions;
     public Animator anim;
     public GameObject target;
-
+    public GameObject weight;
+    public string weightAnimName = "";
     public GameObject item
 
     {
@@ -43,7 +44,7 @@ public class TargetHandler : MonoBehaviour, IDropHandler
             //gets the item being dragged, sets parent to the current transform
             draggable.itemBeingDragged.transform.SetParent(transform);
             //if object in target slot, change to true 
-            draggable.slot = true;
+            weight.GetComponent<Animator>().Play(weightAnimName);
             //hides the instructions panel
             Instructions.gameObject.SetActive(false);
 

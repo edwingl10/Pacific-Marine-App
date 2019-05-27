@@ -1557,9 +1557,9 @@ GameObject:
   - component: {fileID: 979510662}
   - component: {fileID: 979510665}
   - component: {fileID: 979510664}
-  - component: {fileID: 979510666}
   - component: {fileID: 979510663}
   - component: {fileID: 979510667}
+  - component: {fileID: 979510666}
   m_Layer: 5
   m_Name: weight
   m_TagString: Untagged
@@ -1644,7 +1644,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 979510661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb511d68c5ce946a8900a1155b8cc67b, type: 3}
+  m_Script: {fileID: 11500000, guid: ae14441f5365d4b36951d1ecfa228a0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 979510667}
@@ -1939,8 +1939,8 @@ GameObject:
   - component: {fileID: 1135246790}
   - component: {fileID: 1135246789}
   - component: {fileID: 1135246791}
-  - component: {fileID: 1135246788}
   - component: {fileID: 1135246792}
+  - component: {fileID: 1135246788}
   m_Layer: 5
   m_Name: Target
   m_TagString: Untagged
@@ -1976,12 +1976,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1135246786}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ad289fb2f46c48fa99608434229c377, type: 3}
+  m_Script: {fileID: 11500000, guid: bff63898bbb784f4cbeb8f86007dc0d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Instructions: {fileID: 87205340}
   anim: {fileID: 1135246792}
   target: {fileID: 1135246786}
+  weight: {fileID: 979510661}
+  weightAnimName: mimWeight
 --- !u!114 &1135246789
 MonoBehaviour:
   m_ObjectHideFlags: 0

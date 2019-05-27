@@ -72,14 +72,14 @@ public class woundClean : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDr
 
     IEnumerator play_clipboard()
     {
+        clip_board.GetComponent<Animator>().SetBool("play", true);
         //makes trail not visible 
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(1.5f);
         for (int i = 0; i < targets.Length; i++)
         {
             targets[i].SetActive(false);
         }
 
-        clip_board.GetComponent<Animator>().SetBool("play", true);
         StartCoroutine(hide_clipboard());
     }
 

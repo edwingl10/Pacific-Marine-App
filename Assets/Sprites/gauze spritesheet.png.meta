@@ -1,9 +1,54 @@
 fileFormatVersion: 2
 guid: 190332597383246e98633283333271f5
 TextureImporter:
-  fileIDToRecycleName: {}
+  internalIDToNameTable:
+  - first:
+      213: -794039697590692917
+    second: gauze spritesheet_0
+  - first:
+      213: -7665045699342790262
+    second: gauze spritesheet_1
+  - first:
+      213: 8898309248720378041
+    second: gauze spritesheet_2
+  - first:
+      213: 6083858733762081251
+    second: gauze spritesheet_3
+  - first:
+      213: -8445216968862839682
+    second: gauze spritesheet_4
+  - first:
+      213: -9047532233297618983
+    second: gauze spritesheet_5
+  - first:
+      213: 7810547044586579424
+    second: gauze spritesheet_6
+  - first:
+      213: -3482741638005784132
+    second: gauze spritesheet_7
+  - first:
+      213: 5808094078945146947
+    second: gauze spritesheet_8
+  - first:
+      213: -2355515176748546870
+    second: gauze spritesheet_9
+  - first:
+      213: -2352267024302295671
+    second: gauze spritesheet_10
+  - first:
+      213: 8144999892849983503
+    second: gauze spritesheet_11
+  - first:
+      213: 4141698840527863080
+    second: gauze spritesheet_12
+  - first:
+      213: -521383094856160926
+    second: gauze spritesheet_13
+  - first:
+      213: -4356184607771559159
+    second: gauze spritesheet_14
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -31,7 +76,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +85,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,17 +114,367 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: gauze spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 19
+        width: 514
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6019be20832b4ec1acb020ad9793f4c
+      internalID: -794039697590692917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gauze spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 427
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54db14a8d85894e5393c65d9601c5230
+      internalID: -7665045699342790262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gauze spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 448
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358681da0b2cb40979cdbf898ba11a3d
+      internalID: 8898309248720378041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gauze spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 429
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14b1c5994b7d43c48c1f7cd15dad406
+      internalID: 6083858733762081251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gauze spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 419
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726b4e4b8b0094a4aab315c51a925068
+      internalID: -8445216968862839682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gauze spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 439
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f15fa3bd07e6405491d10ec66192e15
+      internalID: -9047532233297618983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gauze spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 414
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999ce2b5e90e94976aaa0e76cab24119
+      internalID: 7810547044586579424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gauze spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 439
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b7fa171c5c54ea4b1f8ed8bf89cbd3
+      internalID: -3482741638005784132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gauze spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 414
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cdd8b949c4b476abc363de26135dca
+      internalID: 5808094078945146947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gauze spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 422
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33a51e0358da404fa05981e56151d1e
+      internalID: -2355515176748546870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gauze spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 19
+        width: 514
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04dc7cd1cb224b429415794ac2498a8
+      internalID: -2352267024302295671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gauze spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 422
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d567de6773c4dcf941912ca047cfb0
+      internalID: 8144999892849983503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gauze spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 19
+        width: 514
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b5aa741a1a944b8a9e30ac30b96062
+      internalID: 4141698840527863080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gauze spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 412
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cd9abd3550c4fd5abc886e0dbca102
+      internalID: -521383094856160926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gauze spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 412
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975fff12f8c774f2d8337bf9ab7dca11
+      internalID: -4356184607771559159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 4d29fd2aa4e084472b6bfaaa5d0d5f63
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

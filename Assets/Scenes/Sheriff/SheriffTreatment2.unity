@@ -434,6 +434,12 @@ MonoBehaviour:
   clip_board: {fileID: 797936617}
   cottonBall: {fileID: 21300000, guid: 6ac7f18f96f7f4cce9bad3da43fc34e6, type: 3}
   cream: {fileID: 21300000, guid: 98c8f63f3ca4046339c3b82bc0b2d7aa, type: 3}
+  targets:
+  - {fileID: 1135246786}
+  - {fileID: 1714619501}
+  - {fileID: 1724017593}
+  - {fileID: 1146319592}
+  - {fileID: 1588310814}
 --- !u!114 &276737113
 MonoBehaviour:
   m_ObjectHideFlags: 0

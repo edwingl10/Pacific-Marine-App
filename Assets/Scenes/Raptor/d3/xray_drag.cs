@@ -10,8 +10,7 @@ public class xray_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
     Vector3 startPosition;
     //stores the parent of the game object
     Transform startParent;
-    //used to start animation
-    public static bool slot = false;
+    public GameObject target;
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -22,6 +21,7 @@ public class xray_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
         startParent = transform.parent;
         GetComponent<CanvasGroup>().blocksRaycasts = false;
         transform.SetParent(transform.root);
+        target.GetComponent<Animator>().SetBool("targetHelp", true);
 
     }
 

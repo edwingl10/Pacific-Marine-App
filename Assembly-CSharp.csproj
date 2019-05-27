@@ -73,8 +73,6 @@
     <Compile Include="Assets\Scenes\Menu Scenes\Menu\OptionsMenuLogic.cs" />
     <Compile Include="Assets\Scenes\Menu Scenes\Menu\SaveChangesAction.cs" />
     <Compile Include="Assets\Scenes\Menu Scenes\Menu\StartGame.cs" />
-    <Compile Include="Assets\Scenes\Mimi\d1\mweight_drag.cs" />
-    <Compile Include="Assets\Scenes\Mimi\d1\mweight_target.cs" />
     <Compile Include="Assets\Scenes\Mimi\d2\mmag_drag.cs" />
     <Compile Include="Assets\Scenes\Mimi\d2\mmag_target.cs" />
     <Compile Include="Assets\Scenes\Mimi\d2\mmagSubmit.cs" />
@@ -100,7 +98,6 @@
     <Compile Include="Assets\Scenes\Raptor\d2\magDrag.cs" />
     <Compile Include="Assets\Scenes\Raptor\d2\mouthTarget.cs" />
     <Compile Include="Assets\Scenes\Raptor\d2\SubmitManager.cs" />
-    <Compile Include="Assets\Scenes\Raptor\d3\xAnimControl.cs" />
     <Compile Include="Assets\Scenes\Raptor\d3\xray_drag.cs" />
     <Compile Include="Assets\Scenes\Raptor\d3\xray_target.cs" />
     <Compile Include="Assets\Scenes\Raptor\d3\xSubmitControl.cs" />
@@ -116,8 +113,10 @@
     <Compile Include="Assets\Scenes\Raptor\t1\maskTarget.cs" />
     <Compile Include="Assets\Scenes\Raptor\t2\tweezerDrag.cs" />
     <Compile Include="Assets\Scenes\Raptor\t2\tweezerTarget.cs" />
-    <Compile Include="Assets\Scenes\Roma\d1\rweight_drag.cs" />
-    <Compile Include="Assets\Scenes\Roma\d1\rweight_target.cs" />
+    <Compile Include="Assets\Scenes\Raptor\t4\RaptorCreamDrag.cs" />
+    <Compile Include="Assets\Scenes\Raptor\t4\RaptorCreamTarget.cs" />
+    <Compile Include="Assets\Scenes\Raptor\t5\wrapDrag.cs" />
+    <Compile Include="Assets\Scenes\Raptor\t5\wrapTarget.cs" />
     <Compile Include="Assets\Scenes\Roma\d2\rmag_drag.cs" />
     <Compile Include="Assets\Scenes\Roma\d2\rmag_target.cs" />
     <Compile Include="Assets\Scenes\Roma\d2\rSubmitManager.cs" />
@@ -140,14 +139,9 @@
     <Compile Include="Assets\Scenes\Roma\t3\vitiminTarget.cs" />
     <Compile Include="Assets\Scenes\Roma\t4\fishDrag.cs" />
     <Compile Include="Assets\Scenes\Roma\t4\fishTarget.cs" />
-    <Compile Include="Assets\Scenes\Sheriff\d1\weightDrag.cs" />
-    <Compile Include="Assets\Scenes\Sheriff\d1\weightTarget.cs" />
     <Compile Include="Assets\Scenes\Sheriff\d2\magnifyDrag.cs" />
     <Compile Include="Assets\Scenes\Sheriff\d2\magSubmitManager.cs" />
     <Compile Include="Assets\Scenes\Sheriff\d2\neckTarget.cs" />
-    <Compile Include="Assets\Scenes\Sheriff\d3\xrayDrag.cs" />
-    <Compile Include="Assets\Scenes\Sheriff\d3\xraySubmit.cs" />
-    <Compile Include="Assets\Scenes\Sheriff\d3\xrayTarget.cs" />
     <Compile Include="Assets\Scenes\Sheriff\d4\dragNeedle.cs" />
     <Compile Include="Assets\Scenes\Sheriff\d4\needleTarget.cs" />
     <Compile Include="Assets\Scenes\Sheriff\d5\controlDrop.cs" />

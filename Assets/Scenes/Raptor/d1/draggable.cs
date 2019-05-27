@@ -13,7 +13,7 @@ public class draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
     //stores the parent of the game object
     Transform startParent;
     //used to start animation
-    public static bool slot;
+   
     //references weight scale animator
     public Animator animator;
     public GameObject clip_board;
@@ -80,18 +80,5 @@ public class draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
 
     }
 
-    void Update()
-    {
-        //checks if object in target slot,starts weight animation if true
-        animator.SetBool("in_slot", slot);
-
-
-    }
-
-
-    void Start()
-    {
-        slot = false;
-    }
 
 }

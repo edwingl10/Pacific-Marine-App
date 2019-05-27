@@ -10,6 +10,9 @@ public class maskTarget : MonoBehaviour, IDropHandler
     public GameObject Instructions;
     public Animator anim;
     public GameObject clip_board;
+    public GameObject Raptor;
+    public Sprite RaptorSleep;
+    public GameObject mask;
 
     public void play_clipboard()
     {
@@ -24,6 +27,15 @@ public class maskTarget : MonoBehaviour, IDropHandler
         Animator cb = clip_board.GetComponent<Animator>();
         cb.Play("hide_clipboard");
 
+    }
+
+    IEnumerator raptor_sleep()
+    {
+        yield return new WaitForSeconds(4);
+        Raptor.GetComponent<Animator>().enabled = false;
+        mask.GetComponent<Image>().enabled = false;
+        Raptor.GetComponent<RectTransform>().sizeDelta = new Vector2(886.5f, 587.6f);
+        Raptor.GetComponent<Image>().sprite = RaptorSleep;
     }
 
     public GameObject item
@@ -57,7 +69,7 @@ public class maskTarget : MonoBehaviour, IDropHandler
 
             //gets the item being dragged, sets parent to the current transform
             maskDrag.itemBeingDragged.transform.SetParent(transform);
-
+            StartCoroutine(raptor_sleep());
             //hides the instructions panel
             Instructions.gameObject.SetActive(false);
             play_clipboard();
