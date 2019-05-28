@@ -48,6 +48,9 @@ public class mmag_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
 
     public void OnDrag(PointerEventData eventData)
     {
+        //Vector3 screenPoint = Input.mousePosition;
+        //screenPoint.z = 100.0f;
+        //transform.position = Camera.main.ScreenToWorldPoint(screenPoint);
         //position of game object follows mouse position 
         transform.position = eventData.position;
 

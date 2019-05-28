@@ -1,10 +1,5 @@
 ﻿<Properties StartupConfiguration="{C4F12B69-913F-A482-C3B1-0319E4161514}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Raptor/d3/xray_drag.cs">
-    <Files>
-      <File FileName="Assets/Scenes/Raptor/d3/xray_target.cs" Line="34" Column="34" />
-      <File FileName="Assets/Scenes/Raptor/d3/xray_drag.cs" Line="42" Column="10" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
